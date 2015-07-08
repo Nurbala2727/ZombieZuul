@@ -30,7 +30,7 @@ ENDplayerRoom
 
 sistersRoom
 in a little girls room with a loft too big to fit through the door.
-There are two dresssers, onw with two parts and a mirrored back.
+There are two dressers, on with two parts and a mirrored back.
 To the east there is a peculiar room with an oddly re-enforeced door.
 ENDsistersRoom
 
@@ -38,6 +38,12 @@ parentsRoom
 in a small room with a bed too large for comfortable moving space. There is a dresser filled with womens clothing.
 To the south there is a peculiar room with an oddly re-enforced door.
 ENDparentsRoom
+
+xyloRoom
+This is an odd room that gives off the vibe of a torcher chamber.
+You hear painful moans of a torchered soul not far. 
+On the east side of the dark dungeon, there is a weird doll.
+ENDxyloRoom
 
 
 

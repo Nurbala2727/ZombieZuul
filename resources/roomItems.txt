@@ -6,8 +6,13 @@ ENDkitchen
 STARTlivingRoom
 couch
 smallerCouch
+bookCase
 ENDlivingRoom
 
 STARTplayerRoom
 letter
 ENDplayerRoom
+
+STARTxyloRoom
+doll
+ENDxyloRoom

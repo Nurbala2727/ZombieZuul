@@ -5,6 +5,7 @@ ENDkitchen
 livingRoom
 north,sunRoom
 west,kitchen
+east,xyloRoom
 ENDlivingRoom
 
 sunRoom
@@ -25,3 +26,7 @@ ENDsistersRoom
 parentsRoom
 south,playerRoom
 ENDparentsRoom
+
+xyloRoom
+west,livingRoom
+ENDxyloRoom

@@ -49,12 +49,18 @@ public class Game
         gameMap.addRoom(new Room("sistersRoom"));
         gameMap.addRoom(new Room("parentsRoom"));
         
+        //Xylo
+        gameMap.addRoom(new Room("xyloRoom"));
+        
+        
         setExits("kitchen");
         setExits("livingRoom");
         setExits("sunRoom");
         setExits("playerRoom");
         setExits("sistersRoom");
         setExits("parentsRoom");
+        
+        setExits("xyloRoom");
         
         gameMap.getRoom("playerRoom").setMaxSize(50);
 
@@ -288,6 +294,8 @@ public class Game
             currentRoom.updateProtection();
             if(currentRoom.getProtection() < 100) {
                 printDeath();
+            }else if(currentRoom.getProtection() == 666) {
+            	printEgg();
             }else {
                 printLife();
             }
@@ -303,6 +311,28 @@ public class Game
     private void printDeath() {
         System.out.println("As you drift off to sleep, you get the horrible feeling that you might not wake up. \n In the middle of your slumber you wake up to loud bangs on your door. \n Soon enough a flood of zombies enter and eat you alive. ");
         System.out.println("Type quit to quit.");
+    }
+    
+    private void printEgg(){
+    	System.out.println("As you drift off to sleep, you hope you are favorable in the eyes of the voodoo magic.\n In the middle of the night you hear load bangs on your door.\n Soon enough a flood of zombies enter.");
+    	try {
+    		Thread.sleep(3000);
+    	} catch (Exception e){
+    		
+    	}
+    	System.out.println("As the zombies enter, you hear an odd chanting build up in the background. \nThis chanting reaches a climax and the voodoo doll laying on the floor comes to life in the form of its slave Mace Wik.");
+    	try{
+    		Thread.sleep(3000);
+    	} catch (Exception e) {
+    		
+    	}
+    	System.out.println("Performing his last sacrifice, Mace Wik is slowly munched on by the zombies. \nHowever, weather he didn't settle well in the zombie bellies or the were full, you know not,\n but the leave you alone for another night.");
+    	try {
+    		Thread.sleep(3000);
+    	} catch (Exception e) {
+    		
+    	}
+    	System.out.println("Tye quit to quit.");
     }
 
     /** 

@@ -91,4 +91,36 @@ ENDEX
 
 SIZE 0
 PROTECT 0
+ENDletter
+--------------------------------------
+ITEMbookCase
+DESCRIPTION
+There is a large, immobile bookCase. Filled with books this would be too heavy to move.
+With only books as protection it wouldn't help much anyways.
+ENDDESCRIPTION
+
+EX
+Further examining the book case you see a crack in the wall behind it.
+It appears as if there is a room to the east.
+ENDEX
+
+SIZE 9999
+PROTECT 9999
+ENDbookCase
+--------------------------------------
+ITEMdoll
+DESCRIPTION
+There is an odd doll. Appearing to be home made, it as an odd presence about it.
+ENDDESCRIPTION
+
+EX
+Upon further examination, it becomes clear that this is a voodoo doll.
+This doll has shaggy blonde hair and oddly brown eyebrows.
+On the ass cheeks, is a sewn in patch with the initials M.W.
+As you continue to look at the doll, the painful moaning grows louder and stronger.
+ENDEX
+
+SIZE 1
+PROTECT 666
+ENDdoll
 --------------------------------------
