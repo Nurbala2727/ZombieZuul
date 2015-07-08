@@ -101,7 +101,7 @@ public class Game
         System.out.println("ZZ (Zombie-Zuul) is a new, incredibly awesome adventure game.");
         System.out.println("Type '" + CommandWord.HELP + "' if you need help.");
         System.out.println();
-        System.out.println(currentRoom.getLongDescription());
+        System.out.println("This may be null: " + currentRoom.getLongDescription());
     }
 
     /**

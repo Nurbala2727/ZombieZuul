@@ -14,6 +14,7 @@ public class FileParser
     private static String exitFileName = "exits.txt";
     private static String itemFileName = "items.txt";
     private static String roomItemsFileName = "roomItems.txt";
+    private static String pathName = "../resources/";
     
     /**
      * Constructor for objects of class RoomParser
@@ -25,7 +26,7 @@ public class FileParser
     public static String getDescription(String roomName) {
         String description = "";
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("../resources/" + descriptionFileName));
+            BufferedReader reader = new BufferedReader(new FileReader(pathName + descriptionFileName));
             boolean isReading = false;
             String line;
             while((line = reader.readLine()) != null) {
@@ -53,7 +54,7 @@ public class FileParser
         HashMap<String,String> exits = new HashMap<String, String>();
         
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(exitFileName));
+            BufferedReader reader = new BufferedReader(new FileReader(pathName + exitFileName));
             boolean isReading = false;
             String line;
             
@@ -88,7 +89,7 @@ public class FileParser
         int protection = 0;
         
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(itemFileName));
+            BufferedReader reader = new BufferedReader(new FileReader(pathName + itemFileName));
             boolean inItemBlock = false;
             boolean inDescriptionBlock = false;
             boolean inExamineBlock = false;
