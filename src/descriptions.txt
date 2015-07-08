@@ -1,0 +1,44 @@
+livingRoom
+In a living room with two couches, one smaller than the other.
+There is a coffee table and an entertainment center.
+Outside there are bloody zombies tapping on the bay window like it's a fish tank.
+To the north there is a sun room.
+To the east there is a kitchen.
+ENDlivingRoom
+
+sunRoom
+in a sun room with a footon and a large window.
+Outside the window you see zombies munching on what appears to be some kind of meat.
+There are stairs leading upwards to some kind of bed room.
+To the south there is a living room with furniture.
+ENDsunRoom
+
+kitchen
+in a kitchen with the usual tools. There is broken glass and appliances littering the floor.
+There is an oven, a microwave, and a dishwasher, removed from their spots in the room.
+To the east there appears to be a living room.
+ENDkitchen
+
+playerRoom
+in a peculiar room with decaying body parts splayed out in a corner. \n
+Here there is a bed, a desk with a mostly functioning computer, and a bookshelf.
+Oddly, there is a sturdy, re-enforced door with a tattered note pinned to it.
+There are stairs going down, leading to the first floor.
+To the north there is a bedroom.
+To the west there is a little girls room.
+ENDplayerRoom
+
+sistersRoom
+in a little girls room with a loft too big to fit through the door.
+There are two dresssers, onw with two parts and a mirrored back.
+To the east there is a peculiar room with an oddly re-enforeced door.
+ENDsistersRoom
+
+parentsRoom
+in a small room with a bed too large for comfortable moving space. There is a dresser filled with womens clothing.
+To the south there is a peculiar room with an oddly re-enforced door.
+ENDparentsRoom
+
+
+
+//TODO Add to item class, sizes and protectives that can be maxed. The protectives dictate how many points the player gets.

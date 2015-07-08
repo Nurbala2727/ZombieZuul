@@ -1,0 +1,13 @@
+STARTkitchen
+microwave
+knife
+ENDkitchen
+
+STARTlivingRoom
+couch
+smallerCouch
+ENDlivingRoom
+
+STARTplayerRoom
+letter
+ENDplayerRoom

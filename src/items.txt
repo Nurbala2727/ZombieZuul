@@ -1,0 +1,94 @@
+All descriptions start with a/an for grammatical output reasons
+If not getting the intended parsing results make sure things are spelled correctly and
+use the (ITEM) header instead of the (START). . . .wasted a good hour figuring that one out.
+
+
+ITEMmicrowave
+DESCRIPTION
+a large, white microwave with rancid chicken still in it.
+pretty nasty if you ask me
+ENDDESCRIPTION
+
+EX
+It's just a microwave!
+ENDEX
+
+SIZE 3
+PROTECT 2
+ENDmicrowave
+------------------------------------------
+ITEMknife
+DESCRIPTION
+its a bloody knife
+ENDDESCRIPTION
+
+EX
+Its a bloody knife
+ENDEX
+
+SIZE 1
+PROTECT 1
+ENDknife
+--------------------------------------------
+ITEMdishwasher
+DESCRIPTION
+a dishwasher with a broken door.
+Ruined and worthless for cleaning, it leaks the smell of rotting food.
+ENDDESCRIPTION
+
+EX
+It's a nasty broken dishwasher
+ENDEX
+
+SIZE 5
+PROTECT 4
+ENDdishwasher
+----------------------------------
+ITEMcouch
+DESCRIPTION
+A larger couch with blood stained marks all over the leather.
+ENDDESCRIPTION
+
+EX
+Its just a blood stained couch.
+ENDEX
+
+PROTECT 9
+SIZE 9
+ENDcouch
+----------------------------------
+ITEMsmallerCouch
+DESCRIPTION
+A black leather smallerCouch
+ENDDESCRIPTION
+
+EX
+Its just a couch
+ENDEX
+
+SIZE 4
+PROTECT 3
+ENDsmallerCouch
+-------------------------------------
+ITEMletter
+DESCRIPTION
+There is a tattered worn down letter.
+Incoherent scribbles cover the page.
+ENDDESCRIPTION
+
+EX
+Upon further inspection the letter reads:
+    They kept coming.
+    Late into the night creatures from all around, blood drooling from their mouths,
+    kept coming. The moans and groans of these lifeless creatures are too loud to sleep.
+
+    To survive the night, put furniture, items, anything in front of the door.
+    When you think you have enough fortifications, type sleep while in the room.
+    Keep them out. Or else. . . .
+The letter abruptly transforms into indecipherable scribbles then ends.
+I wonder what happened to them.
+ENDEX
+
+SIZE 0
+PROTECT 0
+--------------------------------------
