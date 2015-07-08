@@ -14,7 +14,7 @@ public class FileParser
     private static String exitFileName = "exits.txt";
     private static String itemFileName = "items.txt";
     private static String roomItemsFileName = "roomItems.txt";
-    private static String pathName = "../resources/";
+    private static String pathName = "resources/";
     
     /**
      * Constructor for objects of class RoomParser
@@ -138,7 +138,7 @@ public class FileParser
     public static ArrayList<Item> getRoomItems(String roomName) {
         ArrayList<Item> roomItems = new ArrayList<>();
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(roomItemsFileName));
+            BufferedReader reader = new BufferedReader(new FileReader(pathName + roomItemsFileName));
             String line;
             boolean inRoomBlock = false;
         
