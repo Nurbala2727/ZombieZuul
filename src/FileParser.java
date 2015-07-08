@@ -25,7 +25,7 @@ public class FileParser
     public static String getDescription(String roomName) {
         String description = "";
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(descriptionFileName));
+            BufferedReader reader = new BufferedReader(new FileReader("../resources/" + descriptionFileName));
             boolean isReading = false;
             String line;
             while((line = reader.readLine()) != null) {
@@ -38,6 +38,7 @@ public class FileParser
                     description += line + "\n";
                 }
             }
+            reader.close();
             return description;
         }catch (Exception e) {
             System.err.format("Exception occurred when trying to read descriptions.txt");
@@ -69,6 +70,7 @@ public class FileParser
                     exits.put(direction,nextRoomName);
                 }
             }
+            reader.close();
             return exits;
         }catch (Exception e) {
             System.err.format("Exception occurred when trying to read descriptions.txt");
@@ -122,6 +124,7 @@ public class FileParser
                 }
             }
             //Create item here
+            reader.close();
             return new Item(itemName, description, examineText, size, protection);
             
         }catch (Exception e) {
@@ -147,6 +150,7 @@ public class FileParser
                     roomItems.add(createItem(line));
                 }
             }
+            reader.close();
             return roomItems;
                
         }catch (Exception e) {
